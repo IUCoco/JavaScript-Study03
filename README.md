@@ -91,3 +91,4 @@ jQuery CSS 选择器可用于改变 HTML 元素的 CSS 属性。
 下面的例子把所有 p 元素的背景颜色更改为红色：  
 实例  
 `$("p").css("background-color","red");`  
+
