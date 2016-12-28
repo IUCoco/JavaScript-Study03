@@ -67,3 +67,27 @@ $(document).ready(function(){
 });
 ```
 这是为了防止文档在完全加载（就绪）之前运行 jQuery 代码。 
+
+#### jQuery 选择器
+在前面的章节中，我们展示了一些有关如何选取 HTML 元素的实例。
+关键点是学习 jQuery 选择器是如何准确地选取您希望应用效果的元素。
+jQuery 元素选择器和属性选择器允许您通过标签名、属性名或内容对 HTML 元素进行选择。
+选择器允许您对 HTML 元素组或单个元素进行操作。
+在 HTML DOM 术语中：
+选择器允许您对 DOM 元素组或单个 DOM 节点进行操作。
+jQuery 元素选择器
+##### jQuery 使用 CSS 选择器来选取 HTML 元素。
+`$("p")` 选取 `<p>` 元素。
+`$("p.intro")` 选取所有 class="intro" 的 `<p>` 元素。
+`$("p#demo")` 选取所有 `id="demo"` 的 `<p>` 元素。
+##### jQuery 属性选择器
+jQuery 使用 XPath 表达式来选择带有给定属性的元素。
+`$("[href]")` 选取所有带有 href 属性的元素。
+`$("[href='#']")` 选取所有带有 href 值等于 `"#"` 的元素。
+`$("[href!='#']")` 选取所有带有 href 值不等于 `"#"` 的元素。
+`$("[href$='.jpg']")` 选取所有 href 值以 `".jpg"` 结尾的元素。
+##### jQuery CSS 选择器
+jQuery CSS 选择器可用于改变 HTML 元素的 CSS 属性。
+下面的例子把所有 p 元素的背景颜色更改为红色：
+实例
+`$("p").css("background-color","red");`
