@@ -41,3 +41,18 @@ Microsoft CDN:  
 </script>
 </head>
 ```
+#### jQuery 语法实例  
+$(this).hide()  
+演示 jQuery `hide()` 函数，隐藏当前的 HTML 元素。  
+`$("#test").hide()`  
+演示 jQuery hide() 函数，隐藏 id="test" 的元素。  
+`$("p").hide()`  
+演示 jQuery hide() 函数，隐藏所有 `<p>` 元素。  
+`$(".test").hide() `  
+演示 jQuery hide() 函数，隐藏所有 class="test" 的元素。  
+jQuery 语法  
+jQuery 语法是为 HTML 元素的选取编制的，可以对元素执行某些操作。  
+基础语法是：`$(selector).action()`  
+- 美元符号定义 jQuery  
+- 选择符（selector）“查询”和“查找” HTML 元素  
+- jQuery 的 action() 执行对元素的操作  
