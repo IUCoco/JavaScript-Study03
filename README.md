@@ -56,3 +56,13 @@ jQuery 语法是为 HTML 元素的选取编制的，可以对元素执行某些�
 - 美元符号定义 jQuery  
 - 选择符（selector）“查询”和“查找” HTML 元素  
 - jQuery 的 action() 执行对元素的操作  
+
+##### 文档就绪函数
+- jQuery 的 action() 执行对元素的操作  
+您也许已经注意到在我们的实例中的所有 jQuery 函数位于一个 document ready 函数中：
+$(document).ready(function(){
+
+--- jQuery functions go here ----
+
+});
+这是为了防止文档在完全加载（就绪）之前运行 jQuery 代码。
